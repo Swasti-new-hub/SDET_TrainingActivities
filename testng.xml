@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testNGSession1" parallel="classes">
+    <test name="SuiteTests" >
+    <groups>
+        <run>
+            <!-- <include name="HeaderTests" />-->
+            <!-- <include name="ButtonTests" />-->
+        </run>
+    </groups>
+     	<parameter name="username" value="admin"/>
+       	<parameter name="password" value="password"/>
+        <classes>
+        	<class name="testNGSession1.Activity1"/>
+        	<class name="testNGSession1.Activity2"/>
+        	<class name="testNGSession1.Activity3"/>
+            <class name="testNGSession1.Activity4DemoOne"/>
+            <class name="testNGSession1.Activity4DemoTwo"/>
+            <class name="testNGSession1.Activity5"/>
+            <class name="testNGSession1.Activity6"/>
+            <class name="testNGSession1.Activity7"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Testing with Data from Scenario",
+        "description": "",
+        "id": "data-driven-test-without-example;testing-with-data-from-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7901920301,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login page",
+            "match": {
+              "location": "LoginSteps.loginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 429619100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters \"admin\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 13
+                },
+                {
+                  "val": "password",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginSteps.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 161676700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Read the page title and confirmation message",
+            "match": {
+              "location": "LoginSteps.readTitleAndHeading()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1049471800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the Browser",
+            "match": {
+              "location": "LoginSteps.closeBrowser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Data driven test without Example",
+    "description": "",
+    "id": "data-driven-test-without-example",
+    "keyword": "Feature",
+    "uri": "Activity2_4.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@activity2_4"
+      }
+    ]
+  }
+]
