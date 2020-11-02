@@ -47,7 +47,7 @@ public class Activity3 {
         MobileElement phoneNumber = driver.findElementByXPath("//android.widget.EditText[@text='Phone']");
         
         // Enter the text in the fields
-        firstName.sendKeys("Neelima");
+        firstName.sendKeys("Swasti");
         lastName.sendKeys("Test");
         phoneNumber.sendKeys("987462825");
         
